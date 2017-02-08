@@ -1,3 +1,18 @@
 body{
-	background: #00FF7F;
+	background: lightcyan;
+}
+
+.credit{
+	font-size: 10px;
+}
+#list{
+	border: dashed 3px brown;
+	width: 50%;
+	background-color: lightcoral;
+	color: lightgreen; 
+	font-family: Comic Sans MS;
+	border-radius: 10px;
+	text-shadow: -2px 2px black;
+	margin: auto;
+	padding-left: 15px;
 }
