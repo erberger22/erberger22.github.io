@@ -25,6 +25,12 @@ body{
 	border: goldenrod dashed 2px;
 	background-color: lightcyan;
 	width: 500px;
+	padding: 15px;
+}
+@media screen and (max-width: 600px){
+.message{
+	width: 90%;
+}
 }
 .nav{
 	position: fixed;
