@@ -33,11 +33,16 @@ body{
 }
 #pup{
 	float: right;
-	margin:-315px 90px 0px 0px;
+	margin:-320px 90px 0px 0px;
 }
-@media screen and (max-width: 100px){
+form{
+	margin-left: 10px;
+	width: 60%;
+}
+@media screen and (max-width: 600px){
 form{
 	color: yellow;
+	background-color: darkgray;
 }
 }
 a {
