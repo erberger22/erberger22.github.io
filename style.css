@@ -1,3 +1,62 @@
 body{
-	background: #00FF7F;
+	background: lightcyan;
+	margin: 40px;
+}
+.credit{
+	font-size: 10px;
+}
+.list{
+	border: dashed 3px brown;
+	width: 50%;
+	background-color: lightcoral;
+	color: lightgreen; 
+	font-family: Comic Sans MS;
+	border-radius: 10px;
+	text-shadow: -2px 2px black;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#answer{
+	background-image: url("images/grumpy_pup.jpg");
+}
+.message{
+	border-radius: 5px;
+	border: goldenrod dashed 2px;
+	background-color: lightcyan;
+	width: 500px;
+	padding: 15px;
+}
+@media screen and (max-width: 600px){
+.message{
+	width: 90%;
+}
+}
+.nav{
+	position: fixed;
+	bottom: 0px;
+	background-color: lightcyan;
+}
+#pup{
+	float: right;
+	margin:-320px 90px 0px 0px;
+}
+form{
+	margin-left: 10px;
+	width: 60%;
+}
+@media screen and (max-width: 600px){
+form{
+	color: yellow;
+	background-color: darkgray;
+}
+}
+a {
+	color: green;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: purple;
 }
